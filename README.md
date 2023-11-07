@@ -15,4 +15,6 @@
     <li>click here to try => <a href="https://bakna2t.github.io/memoapp/" style="font-weight: bold;" target="_blank">MemoApp</a></li>
 </ul>
 <hr>
-<img style="border-radius: 20px;" alt="MemoApp" src ="./images/baner_memo.png" target="_blank"/>
+<p align="center">
+ <a href="https://bakna2t.github.io/memoapp/"><img src="/images/baner_memo.png" alt="MemoAPP" style="border-radius: 20px;"></a>
+</p>
