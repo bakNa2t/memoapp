@@ -16,5 +16,5 @@
 </ul>
 <hr>
 <p align="center">
- <a href="https://bakna2t.github.io/memoapp/"><img src="/images/baner_memo.png" alt="MemoAPP" style="border-radius: 20px;"></a>
+ <a href="https://bakna2t.github.io/memoapp/"><img src="/images/baner.png" alt="MemoAPP" style="border-radius: 20px;"></a>
 </p>
