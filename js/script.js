@@ -67,7 +67,7 @@ function addItemToDOM(item) {
     const button = createButton('remove__item btn__link icon_color');
     li.appendChild(button);
 
-    //===== add new list item to list in the start of the list
+    //===== add new item to list in the start of the list
     if (itemList === null) {
         itemList.appendChild(li);
     } else {
