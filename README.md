@@ -1,5 +1,4 @@
 <h1 align="center">MemoApp</h1>
-<hr>
 <h5>What has been implemented:</h5>
 <ul style="">
     <li>responsive design for mobile/tablet/desktop devices</li>
@@ -13,9 +12,9 @@
     <li>each <b>memo</b> has an icon <code><i class="fa-regular fa-trash-can" "></i></code> for removing it from the memo list. When clicking on the icon, a modal window pops up to confirm the deletion</li>
     <li>using the function <code>setItemToEdit</code>, the editing mode is called when clicking on the memo and the <code>UPDATE MEMO</code> button is displayed instead of the <code>+ADD MEMO</code> button. After clicking on the <code>UPDATE MEMO</code> button, the memo is set to the top of the list</li>
     <li>clicking on the <code>CLEAR ALL</code> button removes all memos from the <code>DOM</code> and <code>localStorage</code> when the function <code>clearAllItems</code> is called</li>
-    <li>click here to try => <a href="https://bakna2t.github.io/memoapp/" style="font-weight: bold;">MemoApp</a></li>
+    <li>click here to try => <a href="https://bakna2t.github.io/memoapp/" style="font-weight: bold;" target="_blank">MemoApp</a></li>
 </ul>
 <hr>
-<div align="center" style="width: 500px; margin: 0 auto;"><a href="https://bakna2t.github.io/memoapp/"><img style="width: 100%; border-radius: 20px" alt="MemoApp" src ="./images/baner_memo.png" width="600" target="_blank" /></a></div>
+<div align="center" style="width: 500px; margin: 0 auto;"><a href="https://bakna2t.github.io/memoapp/"><img style="width: 100%; border-radius: 20px" alt="MemoApp" src ="./images/baner_memo.png" target="_blank" /></a></div>
 
 <code><b></b></code>
