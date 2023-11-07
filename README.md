@@ -15,5 +15,4 @@
     <li>click here to try => <a href="https://bakna2t.github.io/memoapp/" style="font-weight: bold;" target="_blank">MemoApp</a></li>
 </ul>
 <hr>
-<!-- [![Social Media](https://i.ibb.co/k4BQtdP/Thumbnail.png)](https://youtu.be/_W3R2VwRyF4) -->
-<div style="width: 500px; margin: 0 auto;"><a href="https://bakna2t.github.io/memoapp/" style=";"><img style="width: 100%; border-radius: 20px" alt="MemoApp" src ="./images/baner_memo.png" target="_blank"/></a>
+<a href="https://bakna2t.github.io/memoapp/"><img style="border-radius: 20px;" alt="MemoApp" src ="./images/baner_memo.png" target="_blank"/></a>
