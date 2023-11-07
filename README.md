@@ -1,5 +1,5 @@
 <h1 align="center">MemoApp</h1>
-<h5>What has been implemented:</h5>
+<h3>What has been implemented:</h3>
 <ul style="">
     <li>responsive design for mobile/tablet/desktop devices</li>
     <li>switch dark/light theme cklicking button</li>
@@ -9,12 +9,11 @@
     <li>can't add an empty <b>memo</b> by clicking the <code>+ADD ITEM</code> button when <code>input</code> is empty or filled with <code>Spacebar</code></li>
     <li>using the <code>filterItems</code> function, an input <code>filter</code> has been implemented to search for added memos</li>
     <li>new memos are added to the DOM and <code>localStorage</code> of the browser. Using the <code>getItemsFromStorage</code> function, we check whether the items have already been added to  <code>localStorage</code> and if there is nothing there, add them</li>
-    <li>each <b>memo</b> has an icon <code><i class="fa-regular fa-trash-can" "></i></code> for removing it from the memo list. When clicking on the icon, a modal window pops up to confirm the deletion</li>
+    <li>each <b>memo</b> has a tarsh can icon for removing it from the memo list. When clicking on the icon, a modal window pops up to confirm the deletion</li>
     <li>using the function <code>setItemToEdit</code>, the editing mode is called when clicking on the memo and the <code>UPDATE MEMO</code> button is displayed instead of the <code>+ADD MEMO</code> button. After clicking on the <code>UPDATE MEMO</code> button, the memo is set to the top of the list</li>
     <li>clicking on the <code>CLEAR ALL</code> button removes all memos from the <code>DOM</code> and <code>localStorage</code> when the function <code>clearAllItems</code> is called</li>
     <li>click here to try => <a href="https://bakna2t.github.io/memoapp/" style="font-weight: bold;" target="_blank">MemoApp</a></li>
 </ul>
 <hr>
-<div align="center" style="width: 500px; margin: 0 auto;"><a href="https://bakna2t.github.io/memoapp/"><img style="width: 100%; border-radius: 20px" alt="MemoApp" src ="./images/baner_memo.png" target="_blank" /></a></div>
-
-<code><b></b></code>
+<!-- [![Social Media](https://i.ibb.co/k4BQtdP/Thumbnail.png)](https://youtu.be/_W3R2VwRyF4) -->
+<div style="width: 500px; margin: 0 auto;"><a href="https://bakna2t.github.io/memoapp/" style=";"><img style="width: 100%; border-radius: 20px" alt="MemoApp" src ="./images/baner_memo.png" target="_blank"/></a>
