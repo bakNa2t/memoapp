@@ -91,7 +91,6 @@ header h1 span {
 }
 
 /* Form container */
-
 .form__input {
     width: 100%;
     font-size: var(--fs-main);
@@ -198,8 +197,7 @@ header h1 span {
     transition: all .3s ease-in-out;
 }
 
-/* Task items */
-
+/* Memo items */
 .items {
     color: var(--color-primary);
     display: flex;
@@ -233,6 +231,7 @@ header h1 span {
     transition: all .4s ease-in-out;
 }
 
+/* Designed by */
 .designed {
     position: absolute;
     width: fit-content;
@@ -296,6 +295,30 @@ header h1 span {
 .theme__container span:hover {
     transform: scale(1.2);
     transition: all .4s ease-in-out;
+}
+
+/* Noscript message */
+noscript{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+}
+    
+noscript h3{
+    font-size: 3rem;
+    text-align: center;
+    color: #00ffee;
+    padding: 0 1rem;
+    border: 1px solid var(--color-bg-secondary);
+    border-radius: 1rem;
+    background-color: rgba(0,130,127, .4);
 }
 
 /* Choose language */
