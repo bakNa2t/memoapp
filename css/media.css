@@ -4,4 +4,15 @@
         top: 12%;
         padding: 2rem 2rem;
     }
+    .designed {
+        transform: rotate(-90deg);
+        right: -25px;
+        bottom: 35px;
+    }
+    .theme__container {
+        width: 2rem;
+        height: 2rem;
+        right: .5rem;
+        top: .5rem;
+    }
 }
