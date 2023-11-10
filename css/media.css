@@ -1,14 +1,21 @@
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
+    /* App block */
     .container{
         width: 90%;
         top: 12%;
         padding: 2rem 2rem;
     }
+    /* 'Designed by' block */
     .designed {
         transform: rotate(-90deg);
-        right: -25px;
-        bottom: 35px;
+        right: -22px;
+        bottom: 32px;
+        font-size: .5rem;
     }
+    .designed a {
+        font-size: .6rem;
+    }
+    /* Dark/light theme button */
     .theme__container {
         width: 2rem;
         height: 2rem;
