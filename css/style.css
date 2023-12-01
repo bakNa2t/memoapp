@@ -102,20 +102,54 @@ header h1 span {
 }
 
 .form__input {
+  position: absolute;
   width: 100%;
+  top: 0;
+  left: 0;
   font-size: var(--fs-main);
-  padding: 0.8rem;
+  font-weight: 600;
+  padding: 1rem;
+  color: var(--color-primary);
   border-radius: 0.5rem;
   border: 2px solid var(--color-primary);
-  background-color: var(--color-bg);
-  transition: all 0.5s ease;
+  background: none;
+  z-index: 1;
+  transition: all 0.4s ease;
   outline: none;
 }
 
 .form__input:focus {
   box-shadow: var(--b-shd-focus);
-  /* background-color: var(--color-bg); */
   border-color: var(--color-bg-secondary);
+}
+
+.form__label {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  padding: 0 0.25rem;
+  background-color: var(--color-bg);
+  color: var(--color-secondary);
+  transition: all 0.4s ease;
+}
+
+.form__input:focus + .form__label {
+  top: -0.7rem;
+  left: 0.8rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--color-hover);
+  z-index: 10;
+  transition: all 0.4s ease;
+}
+
+.form__input:not(:placeholder-shown).form__input:not(:focus) + .form__label {
+  top: -0.7rem;
+  left: 0.8rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  z-index: 10;
+  transition: all 0.4s ease;
 }
 
 .form__input__filter {
