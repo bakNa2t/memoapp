@@ -170,6 +170,16 @@ header h1 span {
   border-color: var(--color-primary);
 }
 
+/* Message "Memos aren't found" */
+.empty__list {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  margin-top: 2rem;
+  text-align: center;
+  color: var(--color-secondary);
+}
+
 /* Add Memo button */
 .btn {
   color: var(--color-secondary);
