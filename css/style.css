@@ -170,6 +170,7 @@ header h1 span {
   border-color: var(--color-primary);
 }
 
+/* Add Memo button */
 .btn {
   color: var(--color-secondary);
   border: none;
@@ -199,6 +200,7 @@ header h1 span {
   cursor: pointer;
 }
 
+/* Clear All button */
 .btn__clear {
   width: 100%;
   font-size: 1rem;
