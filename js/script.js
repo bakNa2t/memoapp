@@ -52,6 +52,9 @@ function onAddItemSubmit(e) {
   //===== add items to Local Storage
   addItemsToStorage(newItem);
 
+  //===== display message when no memos
+  displayEmptyMemos();
+
   //===== clear display from filter input and clear button
   resetListInterface();
 
@@ -158,6 +161,10 @@ function removeItem(item) {
 
     resetListInterface();
   }
+
+  if (itemList.childElementCount === 0) {
+    displayEmptyMemos();
+  }
 }
 
 //===== remove item from Local Storage
@@ -179,6 +186,10 @@ function clearAllItems() {
 
     //===== remove all items from Local Storage
     localStorage.removeItem("items");
+  }
+
+  if (itemList.childElementCount === 0) {
+    displayEmptyMemos();
   }
 
   resetListInterface();
@@ -234,6 +245,21 @@ function toggleTheme() {
   }
 }
 
+//===== display message when no memos
+function displayEmptyMemos() {
+  let itemsFromStorage = getItemsFromStorage();
+  const emptyMemos = document.querySelector(".empty__list");
+
+  // console.log(itemsFromStorage.length);
+
+  if (itemsFromStorage.length === 0 || itemsFromStorage == []) {
+    emptyMemos.style.display = "block";
+  } else {
+    // console.log(itemList);
+    emptyMemos.style.display = "none";
+  }
+}
+
 //===== run all eventListeners
 function init() {
   //===== add eventListeners
@@ -243,6 +269,7 @@ function init() {
   itemFilter.addEventListener("input", filterItems);
   themeBtn.addEventListener("click", toggleTheme);
   document.addEventListener("DOMContentLoaded", displayItems);
+  document.addEventListener("DOMContentLoaded", displayEmptyMemos);
 
   resetListInterface();
 }
