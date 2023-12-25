@@ -87,6 +87,22 @@ header h1 span {
   border-radius: 10px;
   box-shadow: var(--b-shd-main);
   transition: all 0.5s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+  animation: fadeUp 0.8s ease-in-out forwards;
+}
+
+@keyframes fadeUp {
+  0% {
+    transform: translateY(-500px) translateX(-50%);
+  }
+  50% {
+    transform: translateY(150px) translateX(-50%);
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
 }
 
 .container:hover {
@@ -174,9 +190,12 @@ header h1 span {
 .empty__list {
   font-size: 1.5rem;
   font-weight: 700;
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 1.2rem;
   margin-top: 2rem;
   text-align: center;
+  /* border: 2px solid var(--color-primary); */
+  background-color: var(--color-bg-secondary);
+  border-radius: 0.5rem;
   color: var(--color-secondary);
 }
 
@@ -191,6 +210,7 @@ header h1 span {
   cursor: pointer;
   box-shadow: var(--b-shd-secondary);
   background-color: var(--color-bg-secondary);
+  transition: all 0.4s;
 }
 
 .btn:hover {
@@ -198,7 +218,7 @@ header h1 span {
   background-color: var(--color-primary);
   box-shadow: var(--b-shd-focus);
   font-weight: 600;
-  transition: all 0.3s;
+  transition: all 0.4s;
 }
 
 .btn__link {
