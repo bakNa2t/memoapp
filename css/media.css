@@ -1,25 +1,30 @@
 @media screen and (max-width: 500px) {
-    /* App block */
-    .container{
-        width: 90%;
-        top: 12%;
-        padding: 2rem 2rem;
-    }
-    /* 'Designed by' block */
-    .designed {
-        transform: rotate(-90deg);
-        right: -22px;
-        bottom: 32px;
-        font-size: .5rem;
-    }
-    .designed a {
-        font-size: .6rem;
-    }
-    /* Dark/light theme button */
-    .theme__container {
-        width: 2rem;
-        height: 2rem;
-        right: .5rem;
-        top: .5rem;
-    }
+  /* App block */
+  .container {
+    width: 90%;
+    top: 12%;
+    padding: 2rem 2rem;
+  }
+  /* 'Designed by' block */
+  .designed {
+    transform: rotate(-90deg);
+    right: -22px;
+    bottom: 32px;
+    font-size: 0.5rem;
+  }
+  .designed a {
+    font-size: 0.6rem;
+  }
+  .empty__list {
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1rem;
+  }
+  /* Dark/light theme button */
+  .theme__container {
+    width: 2rem;
+    height: 2rem;
+    right: 0.5rem;
+    top: 0.5rem;
+  }
 }
