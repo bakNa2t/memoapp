@@ -15,6 +15,7 @@
     <li>after clicking on the <code><b>UPDATE MEMO</b></code> button, the memo is set to the top of the list</li>
     <li>clicking on the <code><b>CLEAR ALL</b></code> and <img src="/images/readme/trash_can.png" alt="Trash can"> buttons, a confirmation window pops up to confirm the removal of items</li>
     <li>clicking on the <code><b>CLEAR ALL</b></code> button removes all memos from the <code>DOM</code> and <code>localStorage</code> when the function <code>clearAllItems</code> is called</li>
+    <li>added <code>autoSetThemeMode</code> function, which checks the current hour and automatically sets light/dark mode at a specific time between 6 a.m. and 18 p.m.</li>
     <li>click here to try => <a href="https://bakna2t.github.io/memoapp/" style="font-weight: bold;" target="_blank">MemoApp</a></li>
 </ul>
 <hr>
