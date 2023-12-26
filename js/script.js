@@ -245,6 +245,22 @@ function toggleTheme() {
   }
 }
 
+// ===== automatically set dark/ligth mode
+function autoSetThemeMode() {
+  const currentDate = new Date();
+  const currentHour = currentDate.getHours();
+
+  if (currentHour >= 6 || currentHour < 18) {
+    document.body.classList.add("light");
+    document.querySelector(".theme__light").style.display = "flex";
+    document.querySelector(".theme__dark").style.display = "none";
+  } else {
+    document.body.classList.remove("light");
+    document.querySelector(".theme__light").style.display = "none";
+    document.querySelector(".theme__dark").style.display = "flex";
+  }
+}
+
 //===== display message when no memos
 function displayEmptyMemos() {
   let itemsFromStorage = getItemsFromStorage();
@@ -270,6 +286,7 @@ function init() {
   themeBtn.addEventListener("click", toggleTheme);
   document.addEventListener("DOMContentLoaded", displayItems);
   document.addEventListener("DOMContentLoaded", displayEmptyMemos);
+  document.addEventListener("DOMContentLoaded", autoSetThemeMode);
 
   resetListInterface();
 }
