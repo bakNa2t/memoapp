@@ -3,6 +3,7 @@
   .container {
     width: 90%;
     top: 12%;
+    margin-top: 15%;
     padding: 2rem 2rem;
   }
   /* 'Designed by' block */
@@ -22,8 +23,8 @@
   }
   /* Dark/light theme button */
   .theme__container {
-    width: 2rem;
-    height: 2rem;
+    width: 1.75rem;
+    height: 1.75rem;
     right: 0.5rem;
     top: 0.5rem;
   }
